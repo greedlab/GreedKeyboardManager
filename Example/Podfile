@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#use_frameworks!
+
+target 'GreedKeyboardManager_Example', :exclusive => true do
+  pod 'GreedKeyboardManager', :path => '../'
+end
+
+target 'GreedKeyboardManager_Tests', :exclusive => true do
+  pod 'GreedKeyboardManager', :path => '../'
+
+  
+end
