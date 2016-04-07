@@ -1,0 +1,19 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+//
+//  GreedKeyboardManager.pch
+//  Pods
+//
+//  Created by Bell on 16/4/6.
+//  Copyright © 2016年 greedlab. All rights reserved.
+//
+
+#ifndef WeakSelf
+#define WeakSelf(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+#endif
+
+#ifndef StrongSelf
+#define StrongSelf(strongSelf)  __strong __typeof(&*self)strongSelf = weakSelf;
+#endif

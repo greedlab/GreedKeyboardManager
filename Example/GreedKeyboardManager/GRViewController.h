@@ -10,4 +10,10 @@
 
 @interface GRViewController : UIViewController
 
+@property (nonatomic, strong) UIScrollView *scrollView;
+@property (nonatomic, strong) UITextField *textField;
+@property (nonatomic, strong) UITextView *textView;
+@property (nonatomic, strong) UIView *bgView;
+@property (nonatomic, strong) UIButton *cancelButton;
+
 @end

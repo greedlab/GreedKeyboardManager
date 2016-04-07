@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'GreedKeyboardManager' => ['Pod/Assets/*.png']
   }
-
+  s.prefix_header_file = 'Pod/Classes/GreedKeyboardManager.pch'
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'Foundation'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

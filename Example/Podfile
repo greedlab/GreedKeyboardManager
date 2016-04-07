@@ -1,12 +1,15 @@
 source 'https://github.com/CocoaPods/Specs.git'
 #use_frameworks!
 
+def target_pods
+    pod 'GreedKeyboardManager', :path => '../'
+    pod 'Masonry'
+end
+
 target 'GreedKeyboardManager_Example', :exclusive => true do
-  pod 'GreedKeyboardManager', :path => '../'
+    target_pods
 end
 
 target 'GreedKeyboardManager_Tests', :exclusive => true do
-  pod 'GreedKeyboardManager', :path => '../'
-
-  
+  target_pods
 end

@@ -9,7 +9,16 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Develop
+
+```shell
+$ pod lib create GreedKeyboardManager --template-url=git@de.isrv.us:deyi_ios/pod-template.git
+$ cd GreedKeyboardManager
+$ pod update --no-repo-update --project-directory=Example/
+$ pod lib lint GreedKeyboardManager.podspec --verbose --use-libraries --sources=deyiSpec,master --allow-warnings
+$ pod repo push deyiSpec GreedKeyboardManager.podspec --use-libraries --allow-warnings
+```
+
 
 ## Installation
 
