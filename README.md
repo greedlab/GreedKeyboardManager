@@ -7,6 +7,15 @@
 
 A solution for updating UIScrollView out of the the keyboard
 
+## Installation
+
+GreedKeyboardManager is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "GreedKeyboardManager"
+```
+
 ## Usage
 
 ```objc
@@ -19,20 +28,11 @@ A solution for updating UIScrollView out of the the keyboard
 ## Develop
 
 ```shell
-$ pod lib create GreedKeyboardManager --template-url=git@de.isrv.us:deyi_ios/pod-template.git
+$ pod lib create GreedKeyboardManager --template-url=git@github.com:GreedBell/pod-template.git
 $ cd GreedKeyboardManager
 $ pod update --no-repo-update --project-directory=Example/
 $ pod lib lint GreedKeyboardManager.podspec --verbose --use-libraries
 $ pod trunk push GreedKeyboardManager.podspec --use-libraries
-```
-
-## Installation
-
-GreedKeyboardManager is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "GreedKeyboardManager"
 ```
 
 ## Author
