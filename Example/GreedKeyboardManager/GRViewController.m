@@ -45,7 +45,11 @@
     [self.view addSubview:self.scrollView];
     [self.scrollView addSubview:self.bgView];
     [self.scrollView addSubview:self.textView];
+    [self.scrollView addSubview:self.textField];
     [self.scrollView addSubview:self.cancelButton];
+    
+//    [_textField setHidden:YES];
+    [_textView setHidden:YES];
 }
 
 - (void)setConstraints {
@@ -59,11 +63,12 @@
         make.width.equalTo(weakSelf.scrollView);
         make.height.mas_equalTo(2000);
     }];
-    //    [_textField mas_makeConstraints:^(MASConstraintMaker *make) {
-    //        make.center.equalTo(weakSelf.bgView);
-    //        make.height.equalTo(@600);
-    //        make.width.equalTo(@200);
-    //    }];
+    [_textField mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(weakSelf.bgView);
+        make.top.equalTo(weakSelf.bgView).offset(700);
+        make.height.equalTo(@60);
+        make.width.equalTo(@200);
+    }];
     [_textView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(weakSelf.bgView);
         make.top.equalTo(weakSelf.bgView).offset(700);
@@ -84,6 +89,7 @@
     if (!_scrollView) {
         _scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
         _scrollView.backgroundColor = [UIColor redColor];
+        _scrollView.contentInset = UIEdgeInsetsMake(100, 0, 100, 0);
     }
     return _scrollView;
 }
@@ -91,7 +97,7 @@
 - (UITextField *)textField {
     if (!_textField) {
         _textField = [[UITextField alloc] init];
-        _textField.backgroundColor = [UIColor greenColor];
+        _textField.backgroundColor = [UIColor whiteColor];
         _textField.placeholder = @"Test";
     }
     return _textField;
@@ -100,7 +106,7 @@
 - (UITextView *)textView {
     if (!_textView) {
         _textView = [[UITextView alloc] init];
-        _textField.backgroundColor = [UIColor greenColor];
+        _textView.backgroundColor = [UIColor greenColor];
     }
     return _textView;
 }

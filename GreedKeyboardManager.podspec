@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GreedKeyboardManager"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "A solution for updating UIScrollView out of the the keyboard."
 
   s.homepage         = "https://github.com/greedlab/GreedKeyboardManager"
