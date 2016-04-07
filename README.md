@@ -1,6 +1,6 @@
 # GreedKeyboardManager
 
-[![CI Status](http://img.shields.io/travis/Bell/GreedKeyboardManager.svg?style=flat)](https://travis-ci.org/Bell/GreedKeyboardManager)
+[![CI Status](http://img.shields.io/travis/greedlab/GreedKeyboardManager.svg?style=flat)](https://travis-ci.org/greedlab/GreedKeyboardManager)
 [![Version](https://img.shields.io/cocoapods/v/GreedKeyboardManager.svg?style=flat)](http://cocoapods.org/pods/GreedKeyboardManager)
 [![License](https://img.shields.io/cocoapods/l/GreedKeyboardManager.svg?style=flat)](http://cocoapods.org/pods/GreedKeyboardManager)
 [![Platform](https://img.shields.io/cocoapods/p/GreedKeyboardManager.svg?style=flat)](http://cocoapods.org/pods/GreedKeyboardManager)
