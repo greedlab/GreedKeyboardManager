@@ -2,15 +2,15 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
-#language: ruby
-#rvm:
-# - rbx
+language: ruby
+rvm:
+- 3.0
 
 language: objective-c
 before_install:
-#- gem install cocoapods
-- gem install cocoapods -v 0.39.0
-- pod install --project-directory=Example
+- gem install cocoapods
+# - gem install cocoapods -v 0.39.0
+# - pod install --project-directory=Example
 script:
 - set -o pipefail && xcodebuild test -workspace Example/GreedKeyboardManager.xcworkspace -scheme GreedKeyboardManager-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint GreedKeyboardManager.podspec --verbose --use-libraries
