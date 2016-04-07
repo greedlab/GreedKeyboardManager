@@ -7,8 +7,6 @@
 # - rbx
 
 language: objective-c
- cache: cocoapods
- podfile: Example/Podfile
 before_install:
 #- gem install cocoapods
 - gem install cocoapods -v 0.39.0
