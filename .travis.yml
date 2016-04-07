@@ -7,9 +7,9 @@ language: objective-c
 # podfile: Example/Podfile
 before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
-# - pod install --project-directory=Example
+- pod install --project-directory=Example
 script:
-- brew install ruby
+- curl -sSL https://get.rvm.io | bash -s stable --ruby
 - gem install cocoapods
 - set -o pipefail && xcodebuild test -workspace Example/GreedKeyboardManager.xcworkspace -scheme GreedKeyboardManager-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint GreedKeyboardManager.podspec --verbose --use-libraries
