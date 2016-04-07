@@ -31,6 +31,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>0377F78151C70CC26DA821DA16A14170</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libMasonry.a</string>
+			<key>path</key>
+			<string>libMasonry.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>043FB94CF93050E20D8E4C071ACFA5D2</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -72,20 +87,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0B77EC03903938ACD8B6A893961729FA</key>
+		<key>0960561A21796B366FEE9BE3A4955C55</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1636721ED5629123360BB55D372354A3</string>
+				<string>29741362363385B8228FA8ADBD054ED2</string>
+				<string>9E247F24185A8A3C2EAA8DE58C2C2B04</string>
+				<string>432DF94D09E43CED87867B3C80506D1F</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>GreedKeyboardManager.bundle</string>
-			<key>path</key>
-			<string>GreedKeyboardManager.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>0BDFCE1BA078FAD2F83BD49A4B6EDB3C</key>
 		<dict>
@@ -128,7 +144,7 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>996C7A0C7C0160D4E43D1FCE61D09A25</string>
+			<string>6574C1DCD920C0E988D9A066FA9372DF</string>
 			<key>remoteInfo</key>
 			<string>GreedKeyboardManager</string>
 		</dict>
@@ -147,32 +163,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>13654E9065B2961A3BF8814C87CAF5BF</key>
+		<key>1636721ED5629123360BB55D372354A3</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4330CA3A2625A09EB559873AF0E932A3</string>
-				<string>8D55BF96EC768998792AB09B5C5132D3</string>
-				<string>98FBCF8EC81B28D13930361A77A2F0C1</string>
-				<string>C650614BFA2E4F6BDFE79E2F1CD929A5</string>
-			</array>
+			<key>fileRef</key>
+			<string>814715751A2BACEDD6051BE0FBBF6664</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>174E642BD41097900FB195E7D142BCD0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>18340F12838DEE43507667CC74401EB1</key>
 		<dict>
@@ -188,31 +191,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1894BA7D076BC28BB01A836A4EF090BA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D091A46A7776AE060C1B5CC13AB2325F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F11077F303C9DC22B49269817FA46CDC</string>
-				<string>174E642BD41097900FB195E7D142BCD0</string>
-				<string>FF362944C23A136A2752E7C3E921AD9B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GreedKeyboardManager-GreedKeyboardManager</string>
-			<key>productName</key>
-			<string>GreedKeyboardManager-GreedKeyboardManager</string>
-			<key>productReference</key>
-			<string>0B77EC03903938ACD8B6A893961729FA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
 		<key>19676C41349FC1BB3AD5E7082963CE10</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -226,7 +204,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>1F785680CACA3053ADAC9EB786914945</key>
+		<key>1C2968B6C484B63FC073AD5187C5677C</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -235,45 +213,11 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>libMasonry.a</string>
+			<string>libGreedKeyboardManager.a</string>
 			<key>path</key>
-			<string>libMasonry.a</string>
+			<string>libGreedKeyboardManager.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>209E0124A4CB54242F1EA9CC52C785D6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2CC0011A43D3B57B0F212BF7B2BD9A3D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/GreedKeyboardManager/GreedKeyboardManager-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
 		</dict>
 		<key>22E2395DA2EBCF6241A0DA0E1859FF45</key>
 		<dict>
@@ -347,6 +291,20 @@
 				</array>
 			</dict>
 		</dict>
+		<key>29741362363385B8228FA8ADBD054ED2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8F0A74E35CC520175C796EAE856C38A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>2979E54C4AFD27076576E82ADEED2F00</key>
 		<dict>
 			<key>fileRef</key>
@@ -360,40 +318,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>29D6062207D1D633A3BBB55119D0F3B0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2CC0011A43D3B57B0F212BF7B2BD9A3D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/GreedKeyboardManager/GreedKeyboardManager-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
 		<key>2A3DE8F5629098E44B7764EC73BC9E8A</key>
 		<dict>
@@ -651,20 +575,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3F313534B5E8C916D6FE53029DB744D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>814715751A2BACEDD6051BE0FBBF6664</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>3F63C119F95A6735AE627BBB1BEBC4B1</key>
 		<dict>
 			<key>fileRef</key>
@@ -700,12 +610,19 @@
 				</array>
 			</dict>
 		</dict>
-		<key>4330CA3A2625A09EB559873AF0E932A3</key>
+		<key>432DF94D09E43CED87867B3C80506D1F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EF6FE46AD4FD461DC4EE910A69CBFB29</string>
+			<string>9C0E0B678927958059BE008D1C2CF028</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>433CD3331B6C3787F473C941B61FC68F</key>
 		<dict>
@@ -846,7 +763,7 @@
 			<key>productName</key>
 			<string>Masonry</string>
 			<key>productReference</key>
-			<string>1F785680CACA3053ADAC9EB786914945</string>
+			<string>0377F78151C70CC26DA821DA16A14170</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
@@ -854,13 +771,6 @@
 		<dict>
 			<key>fileRef</key>
 			<string>8229525E7067F22D3977D2628DF5F2C3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>547410F744E8AEBABEC6A1FC03DDB6FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -877,10 +787,24 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>598B5615CFFBCCAE7A943D995DAEEFCC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EF6FE46AD4FD461DC4EE910A69CBFB29</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>6130675166D7F27073DBAD9CC1D4194C</key>
 		<dict>
 			<key>fileRef</key>
 			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>64B17855398EC6A617C2EE4882463503</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6ADF9305DF3699FA59AF3DFD0896C27E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -970,6 +894,31 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>6574C1DCD920C0E988D9A066FA9372DF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>913227474CE827DC664A88F9307D3534</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8E0FC5A2E27758EA1DCFD0711FC5E3E4</string>
+				<string>681688ADF5620D51256F292CF409CBE9</string>
+				<string>0960561A21796B366FEE9BE3A4955C55</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>GreedKeyboardManager</string>
+			<key>productName</key>
+			<string>GreedKeyboardManager</string>
+			<key>productReference</key>
+			<string>1C2968B6C484B63FC073AD5187C5677C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
 		<key>657D857047A6A935B5A2E9BD049194F2</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -994,6 +943,20 @@
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>681688ADF5620D51256F292CF409CBE9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F77BF29932BFD2C2901D09492201574C</string>
+				<string>A99C54345E8D73244F04AF9842AAE773</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
@@ -1030,21 +993,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>7018FFB7F14B095ED9D8B69F7B700CD5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libGreedKeyboardManager.a</string>
-			<key>path</key>
-			<string>libGreedKeyboardManager.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>724A1EA4EAE5B1AFCF2A7E39C8E6F0CF</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -1076,20 +1024,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
-		</dict>
-		<key>76DF343868A05936C978C5DC997A398B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>209E0124A4CB54242F1EA9CC52C785D6</string>
-				<string>29D6062207D1D633A3BBB55119D0F3B0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
 		<key>780A86CEB0A0131C88BE12414D500734</key>
 		<dict>
@@ -1140,7 +1074,7 @@
 				<string>3023770D2ABE9906B75B294119FBCC96</string>
 				<string>433CD3331B6C3787F473C941B61FC68F</string>
 				<string>E9B49E9D4F6BC02AA78DCF86BCED2145</string>
-				<string>B5B1B827FC3E2D576623C6676859633B</string>
+				<string>DCB1F5686893997569B80A14CC070EC3</string>
 				<string>8654DAB7B9CB0241E1A343CF1908D872</string>
 			</array>
 			<key>isa</key>
@@ -1275,28 +1209,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8CE0B54040C96CA0D0D1F1CD4A7E9A3C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-GreedKeyboardManager_Example.a</string>
-			<key>path</key>
-			<string>libPods-GreedKeyboardManager_Example.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8D55BF96EC768998792AB09B5C5132D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3EECAB7910F48BA64475AD4519D94E1A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>8D80BE5E71E71DF86A1872444DE80A19</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1309,6 +1221,22 @@
 			<string>Pods-GreedKeyboardManager_Tests-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E0FC5A2E27758EA1DCFD0711FC5E3E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>598B5615CFFBCCAE7A943D995DAEEFCC</string>
+				<string>B97F640EB9696EC2BE52DFD15F5B0780</string>
+				<string>E5A94DB2C5FEA3008D7FD899D1195718</string>
+				<string>64B17855398EC6A617C2EE4882463503</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>8E7E17DB5590A8C4D9625D67E6FBD243</key>
 		<dict>
@@ -1338,19 +1266,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>907B159680D8C52099C5E46A29A83AEC</key>
+		<key>913227474CE827DC664A88F9307D3534</key>
 		<dict>
-			<key>fileRef</key>
-			<string>8F0A74E35CC520175C796EAE856C38A9</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>DCB32F0BBEF7BA71447FE32AEE28E408</string>
+				<string>A5E8B1E675CD772F2525FB3888607854</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>915A6FF0E04F5A5C0ACDE0E32BD2F193</key>
 		<dict>
@@ -1380,47 +1308,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>9795FB997F0A063838B53E4194C3B20F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>98FBCF8EC81B28D13930361A77A2F0C1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3952D32721F8A53FDCC86599EB7B928E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>996C7A0C7C0160D4E43D1FCE61D09A25</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>76DF343868A05936C978C5DC997A398B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>13654E9065B2961A3BF8814C87CAF5BF</string>
-				<string>D9D85F7E6A432BCD467A58DB937D68AC</string>
-				<string>FF86C8299143B657A35AFF570D893198</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A03D3E32F1C0DCF7CC6E6AE8E357C6B9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GreedKeyboardManager</string>
-			<key>productName</key>
-			<string>GreedKeyboardManager</string>
-			<key>productReference</key>
-			<string>7018FFB7F14B095ED9D8B69F7B700CD5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>99D8C610BC84BE231C5D3D280F3B12AF</key>
 		<dict>
@@ -1466,22 +1353,9 @@
 			<key>productName</key>
 			<string>Pods-GreedKeyboardManager_Tests</string>
 			<key>productReference</key>
-			<string>DF77A035E5AA6502D85EBCD24677BAAB</string>
+			<string>D68CDF54223AD9BA4206E2D4E61147C8</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9B49BDB5FBED7A162ADDD035591F42F0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1894BA7D076BC28BB01A836A4EF090BA</string>
-			<key>remoteInfo</key>
-			<string>GreedKeyboardManager-GreedKeyboardManager</string>
 		</dict>
 		<key>9C0E0B678927958059BE008D1C2CF028</key>
 		<dict>
@@ -1509,6 +1383,35 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>9E247F24185A8A3C2EAA8DE58C2C2B04</key>
+		<dict>
+			<key>fileRef</key>
+			<string>45C77EE960F695F5D81987F17F4EA7AE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9F542A4236FD74ECEA9DA4A21DBABA95</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-GreedKeyboardManager_Example.a</string>
+			<key>path</key>
+			<string>libPods-GreedKeyboardManager_Example.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>9F937BDEB8DF93A08D20C5355C0FDB5C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1523,17 +1426,6 @@
 			<string>Masonry/MASConstraint.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A03D3E32F1C0DCF7CC6E6AE8E357C6B9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>GreedKeyboardManager-GreedKeyboardManager</string>
-			<key>target</key>
-			<string>1894BA7D076BC28BB01A836A4EF090BA</string>
-			<key>targetProxy</key>
-			<string>9B49BDB5FBED7A162ADDD035591F42F0</string>
 		</dict>
 		<key>A14E2444F162A20E3776820E0ADFFB52</key>
 		<dict>
@@ -1636,19 +1528,39 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A57B4A60EB1BFA787E24512985942D1A</key>
+		<key>A5E8B1E675CD772F2525FB3888607854</key>
 		<dict>
-			<key>fileRef</key>
-			<string>9C0E0B678927958059BE008D1C2CF028</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
+			<key>baseConfigurationReference</key>
+			<string>2CC0011A43D3B57B0F212BF7B2BD9A3D</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/GreedKeyboardManager/GreedKeyboardManager-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
 			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>A7D31BD1F3AD4ED4612467FAD332F388</key>
 		<dict>
@@ -1664,6 +1576,13 @@
 				</array>
 			</dict>
 		</dict>
+		<key>A99C54345E8D73244F04AF9842AAE773</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>AE63B74A141B2A2E29AB51845DD2B4A8</key>
 		<dict>
 			<key>isa</key>
@@ -1671,7 +1590,7 @@
 			<key>name</key>
 			<string>GreedKeyboardManager</string>
 			<key>target</key>
-			<string>996C7A0C7C0160D4E43D1FCE61D09A25</string>
+			<string>6574C1DCD920C0E988D9A066FA9372DF</string>
 			<key>targetProxy</key>
 			<string>E33EF3012225675FC6B095E4C6CBD990</string>
 		</dict>
@@ -1739,23 +1658,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B5B1B827FC3E2D576623C6676859633B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0B77EC03903938ACD8B6A893961729FA</string>
-				<string>7018FFB7F14B095ED9D8B69F7B700CD5</string>
-				<string>1F785680CACA3053ADAC9EB786914945</string>
-				<string>8CE0B54040C96CA0D0D1F1CD4A7E9A3C</string>
-				<string>DF77A035E5AA6502D85EBCD24677BAAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>B6653DB75D219E078020C341A7D83ECE</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -1780,6 +1682,13 @@
 			<string>53480ED0BE09FF49E34B1702D485CAAB</string>
 			<key>targetProxy</key>
 			<string>F5A383F6FC3267C1917772E2746D703E</string>
+		</dict>
+		<key>B97F640EB9696EC2BE52DFD15F5B0780</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3EECAB7910F48BA64475AD4519D94E1A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>BA119FED4D9BAEF78838BA563AF16A49</key>
 		<dict>
@@ -1818,28 +1727,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>BDB36D504AD2F50E3DA381C0BB18D849</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2CC0011A43D3B57B0F212BF7B2BD9A3D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>GreedKeyboardManager</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
 		<key>BDD210D7537DD15CFE59AE126005E5F8</key>
 		<dict>
 			<key>fileRef</key>
@@ -1853,42 +1740,6 @@
 			<string>9F937BDEB8DF93A08D20C5355C0FDB5C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>BE217EB4741C56D249EC8C81AF63EA55</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2CC0011A43D3B57B0F212BF7B2BD9A3D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>GreedKeyboardManager</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BE826A4BD4F5BEB7AF05161EA29A895A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>45C77EE960F695F5D81987F17F4EA7AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>C223893378F409476517EA229BA8F488</key>
 		<dict>
@@ -1968,7 +1819,7 @@
 			<key>productName</key>
 			<string>Pods-GreedKeyboardManager_Example</string>
 			<key>productReference</key>
-			<string>8CE0B54040C96CA0D0D1F1CD4A7E9A3C</string>
+			<string>9F542A4236FD74ECEA9DA4A21DBABA95</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
@@ -2003,13 +1854,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
-		</dict>
-		<key>C650614BFA2E4F6BDFE79E2F1CD929A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6ADF9305DF3699FA59AF3DFD0896C27E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>C6EE194D232E9FE87097C0F1DF91B9FA</key>
 		<dict>
@@ -2068,20 +1912,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D091A46A7776AE060C1B5CC13AB2325F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BDB36D504AD2F50E3DA381C0BB18D849</string>
-				<string>BE217EB4741C56D249EC8C81AF63EA55</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
 		<key>D33C5DA061EF6E79ACCF945B5A3C785B</key>
 		<dict>
 			<key>children</key>
@@ -2136,7 +1966,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>B5B1B827FC3E2D576623C6676859633B</string>
+			<string>DCB1F5686893997569B80A14CC070EC3</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -2145,8 +1975,7 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>996C7A0C7C0160D4E43D1FCE61D09A25</string>
-				<string>1894BA7D076BC28BB01A836A4EF090BA</string>
+				<string>6574C1DCD920C0E988D9A066FA9372DF</string>
 				<string>53480ED0BE09FF49E34B1702D485CAAB</string>
 				<string>C3F396BD485D8F4184770263D79E972E</string>
 				<string>9B3E9D0D2C28BCCC37CF709104ECB8D3</string>
@@ -2167,26 +1996,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>D68CDF54223AD9BA4206E2D4E61147C8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-GreedKeyboardManager_Tests.a</string>
+			<key>path</key>
+			<string>libPods-GreedKeyboardManager_Tests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>D847BBA7D64920F8BD2442A865AAAA90</key>
 		<dict>
 			<key>fileRef</key>
 			<string>8D80BE5E71E71DF86A1872444DE80A19</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9D85F7E6A432BCD467A58DB937D68AC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9795FB997F0A063838B53E4194C3B20F</string>
-				<string>547410F744E8AEBABEC6A1FC03DDB6FF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>DC8579C657135E3C32AB580A48C6D524</key>
 		<dict>
@@ -2210,6 +2040,56 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>DCB1F5686893997569B80A14CC070EC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1C2968B6C484B63FC073AD5187C5677C</string>
+				<string>0377F78151C70CC26DA821DA16A14170</string>
+				<string>9F542A4236FD74ECEA9DA4A21DBABA95</string>
+				<string>D68CDF54223AD9BA4206E2D4E61147C8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCB32F0BBEF7BA71447FE32AEE28E408</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2CC0011A43D3B57B0F212BF7B2BD9A3D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/GreedKeyboardManager/GreedKeyboardManager-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>DD1F717B0527C71229B3339324E35E55</key>
 		<dict>
@@ -2242,21 +2122,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DF77A035E5AA6502D85EBCD24677BAAB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-GreedKeyboardManager_Tests.a</string>
-			<key>path</key>
-			<string>libPods-GreedKeyboardManager_Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>E158FC65C5404E098F16E26F478DA504</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2281,7 +2146,7 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>996C7A0C7C0160D4E43D1FCE61D09A25</string>
+			<string>6574C1DCD920C0E988D9A066FA9372DF</string>
 			<key>remoteInfo</key>
 			<string>GreedKeyboardManager</string>
 		</dict>
@@ -2319,6 +2184,13 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>E5A94DB2C5FEA3008D7FD899D1195718</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3952D32721F8A53FDCC86599EB7B928E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>E6B49FBCE3957DB67F691ACCC4CAF4BE</key>
 		<dict>
 			<key>fileRef</key>
@@ -2333,7 +2205,7 @@
 			<key>name</key>
 			<string>GreedKeyboardManager</string>
 			<key>target</key>
-			<string>996C7A0C7C0160D4E43D1FCE61D09A25</string>
+			<string>6574C1DCD920C0E988D9A066FA9372DF</string>
 			<key>targetProxy</key>
 			<string>12AD46765D89B7F5888E325338A2AE7B</string>
 		</dict>
@@ -2406,17 +2278,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F11077F303C9DC22B49269817FA46CDC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>F5A383F6FC3267C1917772E2746D703E</key>
 		<dict>
 			<key>containerPortal</key>
@@ -2455,6 +2316,13 @@
 			<string>Pods-GreedKeyboardManager_Tests-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F77BF29932BFD2C2901D09492201574C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F8AB44751192F0AA8DA5F75A06138D15</key>
 		<dict>
@@ -2529,17 +2397,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>FF362944C23A136A2752E7C3E921AD9B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>FF682E8B083BAEBBDF38C52D89D45E37</key>
 		<dict>
 			<key>fileRef</key>
@@ -2553,22 +2410,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>FF86C8299143B657A35AFF570D893198</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3F313534B5E8C916D6FE53029DB744D8</string>
-				<string>907B159680D8C52099C5E46A29A83AEC</string>
-				<string>BE826A4BD4F5BEB7AF05161EA29A895A</string>
-				<string>A57B4A60EB1BFA787E24512985942D1A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

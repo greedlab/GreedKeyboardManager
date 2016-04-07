@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6CD09223FECBC6CD49BA666C'
+               BlueprintIdentifier = '5D1618F4DD11DBAB0D9560AE'
                BlueprintName = 'GreedKeyboardManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libGreedKeyboardManager.a'>
