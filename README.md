@@ -31,8 +31,8 @@ pod "GreedKeyboardManager"
 $ pod lib create GreedKeyboardManager --template-url=git@github.com:GreedBell/pod-template.git
 $ cd GreedKeyboardManager
 $ pod update --no-repo-update --project-directory=Example/
-$ pod lib lint GreedKeyboardManager.podspec --verbose --use-libraries
-$ pod trunk push GreedKeyboardManager.podspec --use-libraries
+$ pod lib lint GreedKeyboardManager.podspec --verbose 
+$ pod trunk push GreedKeyboardManager.podspec
 ```
 
 ## Author
