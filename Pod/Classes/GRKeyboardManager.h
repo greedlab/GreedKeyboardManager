@@ -13,8 +13,8 @@
 @protocol GRKeyboardManagerDelegate <NSObject>
 
 @optional
-- (void)keyboardManager:(GRKeyboardManager*)keyboardManager willShowWithDuration:(CGFloat)duration keyboardFrame:(CGRect)keyboardFrame;
-- (void)keyboardManager:(GRKeyboardManager*)keyboardManager willHideWithDuration:(CGFloat)duration keyboardFrame:(CGRect)keyboardFrame;
+- (void)keyboardManager:(GRKeyboardManager *)keyboardManager willShowWithDuration:(CGFloat)duration keyboardFrame:(CGRect)keyboardFrame;
+- (void)keyboardManager:(GRKeyboardManager *)keyboardManager willHideWithDuration:(CGFloat)duration keyboardFrame:(CGRect)keyboardFrame;
 
 @end
 

@@ -44,25 +44,26 @@ const CGFloat kGRViewControllerToolViewHeight = 50.f;
 
 #pragma mark - GRKeyboardManagerDelegate
 
-- (void)keyboardManager:(GRKeyboardManager*)keyboardManager willShowWithDuration:(CGFloat)duration keyboardFrame:(CGRect)keyboardFrame {
+- (void)keyboardManager:(GRKeyboardManager *)keyboardManager willShowWithDuration:(CGFloat)duration keyboardFrame:(CGRect)keyboardFrame {
     UIWindow *keyWindow = [keyboardManager keyWindow];
     CGRect toolViewFrame = [[_toolView superview] convertRect:_toolView.frame toView:keyWindow];
     CGFloat offset = CGRectGetMinY(keyboardFrame) - CGRectGetMaxY(toolViewFrame);
-//    NSLog(@"toolViewBottomConstraint offset:%f",offset);
+    //    NSLog(@"toolViewBottomConstraint offset:%f",offset);
     [_toolViewBottomConstraint setOffset:offset];
     WeakSelf(weakSelf);
-    [UIView animateWithDuration:duration animations:^{
-        [weakSelf.view layoutIfNeeded];
-    }];
+    [UIView animateWithDuration:duration
+                     animations:^{
+                         [weakSelf.view layoutIfNeeded];
+                     }];
 }
 
-
-- (void)keyboardManager:(GRKeyboardManager*)keyboardManager willHideWithDuration:(CGFloat)duration keyboardFrame:(CGRect)keyboardFrame {
+- (void)keyboardManager:(GRKeyboardManager *)keyboardManager willHideWithDuration:(CGFloat)duration keyboardFrame:(CGRect)keyboardFrame {
     [_toolViewBottomConstraint setOffset:_toolViewBottomConstraintOffset];
     WeakSelf(weakSelf);
-    [UIView animateWithDuration:duration animations:^{
-        [weakSelf.view layoutIfNeeded];
-    }];
+    [UIView animateWithDuration:duration
+                     animations:^{
+                         [weakSelf.view layoutIfNeeded];
+                     }];
 }
 
 #pragma mark - private
@@ -74,14 +75,14 @@ const CGFloat kGRViewControllerToolViewHeight = 50.f;
     [self.scrollView addSubview:self.textView];
     [self.scrollView addSubview:self.textField];
     [self.scrollView addSubview:self.cancelButton];
-    
+
     if (YES) {
         [_textView setHidden:YES];
         _textView.editable = NO;
     } else {
         [_textField setHidden:YES];
         [_textField setEnabled:NO];
-    }    
+    }
 }
 
 - (void)setConstraints {

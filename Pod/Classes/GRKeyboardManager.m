@@ -29,6 +29,9 @@
 @property (nonatomic, assign) UIEdgeInsets originContentInsets;
 @property (nonatomic, assign) UIEdgeInsets originScrollIndicatorInsets;
 
+/**
+ *  whether showing keyboard
+ */
 @property (nonatomic, assign) BOOL showKeyboard;
 
 @end
@@ -105,7 +108,7 @@
     _keyboardFrame = keyboardFrame;
     _animationDuration = duration;
     [self updateFrame];
-    
+
     if ([self.delegate respondsToSelector:@selector(keyboardManager:willHideWithDuration:keyboardFrame:)]) {
         [self.delegate keyboardManager:self willHideWithDuration:_animationDuration keyboardFrame:_keyboardFrame];
     }
@@ -159,9 +162,9 @@
     CGPoint contentOffset = _scrollView.contentOffset;
     if (_showKeyboard && [_textView gr_isSubviewToView:_scrollView]) {
         CGRect textViewRect = [[_textView superview] convertRect:_textView.frame toView:_scrollView];
-//        NSLog(@"contentOffset.y:%f",contentOffset.y);
-//        NSLog(@"CGRectGetMinY(textViewRect):%f",CGRectGetMinY(textViewRect));
-//        NSLog(@"contentInset.top:%f",contentInset.top);
+        //        NSLog(@"contentOffset.y:%f",contentOffset.y);
+        //        NSLog(@"CGRectGetMinY(textViewRect):%f",CGRectGetMinY(textViewRect));
+        //        NSLog(@"contentInset.top:%f",contentInset.top);
         if (CGRectGetHeight(_textView.frame) > CGRectGetHeight(_scrollView.frame) - contentInset.top - contentInset.bottom) {
             contentOffset.y = CGRectGetMinY(textViewRect) - contentInset.top - _textViewTopSpace;
         } else if (contentOffset.y > CGRectGetMinY(textViewRect) - contentInset.top - _textViewTopSpace) {
