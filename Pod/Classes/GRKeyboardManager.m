@@ -41,8 +41,9 @@
         _originContentInsets = UIEdgeInsetsZero;
         _showKeyboard = NO;
         _enable = YES;
-        _textViewTopSpace = 10.f;
-        _textViewBottomSpace = 10.f;
+        _scrollViewBottomSpace = 0.f;
+        _textViewTopSpace = 5.f;
+        _textViewBottomSpace = 5.f;
         _keyboardFrame = CGRectZero;
         [self addObservers];
     }
@@ -63,6 +64,14 @@
     return self;
 }
 
+- (UIWindow *)keyWindow {
+    UIWindow *window = [[UIApplication sharedApplication] keyWindow];
+    if (!window) {
+        window = [[[UIApplication sharedApplication] windows] lastObject];
+    }
+    return window;
+}
+
 #pragma mark - UIKeyboad Notification
 
 - (void)keyboardWillShow:(NSNotification *)notification {
@@ -81,6 +90,9 @@
     if (_textView) {
         [self updateFrame];
     }
+    if ([self.delegate respondsToSelector:@selector(keyboardManager:willShowWithDuration:keyboardFrame:)]) {
+        [self.delegate keyboardManager:self willShowWithDuration:_animationDuration keyboardFrame:_keyboardFrame];
+    }
 }
 
 - (void)keyboardWillHide:(NSNotification *)notification {
@@ -93,6 +105,10 @@
     _keyboardFrame = keyboardFrame;
     _animationDuration = duration;
     [self updateFrame];
+    
+    if ([self.delegate respondsToSelector:@selector(keyboardManager:willHideWithDuration:keyboardFrame:)]) {
+        [self.delegate keyboardManager:self willHideWithDuration:_animationDuration keyboardFrame:_keyboardFrame];
+    }
 }
 
 - (void)keyboardDidHide:(NSNotification *)notification {
@@ -129,11 +145,10 @@
     CGFloat buttom;
     if (_showKeyboard) {
         UIWindow *keyWindow = [self keyWindow];
-        //  Converting Rectangle according to window bounds.
         CGRect scrollViewRect = [[_scrollView superview] convertRect:_scrollView.frame toView:keyWindow];
-        buttom = CGRectGetMaxY(scrollViewRect) - CGRectGetMinY(_keyboardFrame);
         contentInset = _scrollView.contentInset;
         scrollIndicatorInsets = _scrollView.scrollIndicatorInsets;
+        buttom = CGRectGetMaxY(scrollViewRect) - CGRectGetMinY(_keyboardFrame) + self.scrollViewBottomSpace;
         contentInset.bottom = buttom;
         scrollIndicatorInsets.bottom = buttom;
     } else {
@@ -144,11 +159,14 @@
     CGPoint contentOffset = _scrollView.contentOffset;
     if (_showKeyboard && [_textView gr_isSubviewToView:_scrollView]) {
         CGRect textViewRect = [[_textView superview] convertRect:_textView.frame toView:_scrollView];
+//        NSLog(@"contentOffset.y:%f",contentOffset.y);
+//        NSLog(@"CGRectGetMinY(textViewRect):%f",CGRectGetMinY(textViewRect));
+//        NSLog(@"contentInset.top:%f",contentInset.top);
         if (CGRectGetHeight(_textView.frame) > CGRectGetHeight(_scrollView.frame) - contentInset.top - contentInset.bottom) {
             contentOffset.y = CGRectGetMinY(textViewRect) - contentInset.top - _textViewTopSpace;
-        } else if (contentOffset.y > CGRectGetMinY(textViewRect) - contentInset.top) {
+        } else if (contentOffset.y > CGRectGetMinY(textViewRect) - contentInset.top - _textViewTopSpace) {
             contentOffset.y = CGRectGetMinY(textViewRect) - contentInset.top - _textViewTopSpace;
-        } else if (contentOffset.y < CGRectGetMaxY(textViewRect) - (CGRectGetHeight(_scrollView.frame) - contentInset.bottom)) {
+        } else if (contentOffset.y < CGRectGetMaxY(textViewRect) - (CGRectGetHeight(_scrollView.frame) - contentInset.bottom) + _textViewBottomSpace) {
             contentOffset.y = CGRectGetMaxY(textViewRect) - (CGRectGetHeight(_scrollView.frame) - contentInset.bottom) + _textViewBottomSpace;
         }
     }
@@ -181,14 +199,6 @@
 
 - (void)removeObservers {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
-
-- (UIWindow *)keyWindow {
-    UIWindow *window = [[UIApplication sharedApplication] keyWindow];
-    if (!window) {
-        window = [[[UIApplication sharedApplication] windows] lastObject];
-    }
-    return window;
 }
 
 @end

@@ -7,10 +7,12 @@
 //
 
 @import UIKit;
+#import "UIScrollView+GRKeyboardManager.h"
 
-@interface GRViewController : UIViewController
+@interface GRViewController : UIViewController<GRKeyboardManagerDelegate>
 
 @property (nonatomic, strong) UIScrollView *scrollView;
+@property (nonatomic, strong) UIView *toolView;
 @property (nonatomic, strong) UITextField *textField;
 @property (nonatomic, strong) UITextView *textView;
 @property (nonatomic, strong) UIView *bgView;
